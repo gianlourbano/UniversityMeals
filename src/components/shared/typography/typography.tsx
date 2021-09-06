@@ -1,7 +1,7 @@
 import { CSSProperties } from "react"
 import { UIComponent } from "../../types"
 import { useTheme, usePalette, createGradient } from "../../theme/theme-provider"
-import styles from "./Typography.module.css"
+import styles from "./typography.module.css"
 
 export declare type typography = "div" | "span" | "h1" | "h2" | "h3" | "h4" | "p"
 
