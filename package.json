@@ -1,5 +1,6 @@
 {
-  "name": "utterlabs-final",
+  "name": "university-meals",
+  "author": "Gianlorenzo Urbano",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +10,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/next-auth": "^3.15.0",
+    "framer-motion": "^4.1.17",
     "next": "11.1.2",
+    "next-auth": "^3.29.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },

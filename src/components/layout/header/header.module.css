@@ -1,0 +1,46 @@
+.header {
+	z-index: 1;
+	width: 100vw;
+	max-height: 5rem;
+
+	position: fixed;
+}
+
+.header>div {
+	width: 100%;
+	position: relative;
+}
+
+.header h2 {
+	margin: 1.7rem;
+}
+
+.left, .right {
+	display: flex;
+	width: 50%;
+	justify-content: space-evenly;
+}
+
+.left {
+	justify-self: flex-start;
+}
+
+.right {
+	justify-self: flex-end;
+}
+
+.logo {
+	justify-self: center;
+	border-radius: 50%;
+	width: 10%;
+	max-width: 10rem;
+
+	margin: 0 3rem;
+	padding: .7rem;
+
+	position: absolute;
+}
+
+.logoImg {
+	border-radius: 50%;
+}
