@@ -6,9 +6,12 @@
 	position: fixed;
 }
 
-.header>div {
+.container {
 	width: 100%;
 	position: relative;
+
+	display: flex;
+	justify-content: space-evenly;
 }
 
 .header h2 {
@@ -21,26 +24,34 @@
 	justify-content: space-evenly;
 }
 
-.left {
-	justify-self: flex-start;
-}
-
-.right {
-	justify-self: flex-end;
-}
-
 .logo {
-	justify-self: center;
 	border-radius: 50%;
 	width: 10%;
 	max-width: 10rem;
+	min-width: 8rem;
 
-	margin: 0 3rem;
 	padding: .7rem;
 
 	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%);
 }
 
 .logoImg {
 	border-radius: 50%;
+}
+
+.drawer {
+	margin: .5rem;
+}
+
+@media screen and (max-width: 700px) {
+	.logo {
+		min-width: 25%;
+	}
+
+	.left>h2, .right>h2 {
+		display: none;
+	}
 }
