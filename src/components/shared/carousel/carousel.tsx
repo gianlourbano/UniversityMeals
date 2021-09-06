@@ -1,5 +1,5 @@
 import {Children, useState} from "react"
-import styles from "./Carousel.module.css"
+import styles from "./carousel.module.css"
 import { FaAngleDoubleLeft, FaAngleDoubleRight } from "react-icons/fa"
 import { AnimatePresence, motion } from "framer-motion"
 import { wrap } from "popmotion"

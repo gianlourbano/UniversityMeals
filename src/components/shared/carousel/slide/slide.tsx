@@ -1,4 +1,4 @@
-import styles from "./Slide.module.css"
+import styles from "./slide.module.css"
 import React from "react"
 import {Container, Typography} from "../../.."
 import { UIComponent } from "../../../types"
